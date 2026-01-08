@@ -1,3 +1,4 @@
+import '../css/app.css';
 import { createApp } from 'vue';
 import { setDefaultHeaders, setDefaultBaseUrl } from '@/utils/fetchJson.js';
 import { checkDarkMode, applyTheme, isDarkMode } from '@/utils/store.js';
